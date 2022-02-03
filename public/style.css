@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,31,175,1) 0%, rgba(0,212,255,1) 89%);
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.weather{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    margin-top: 30vh;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background: #e1e1e1;
+    padding: 5vh;
+    text-align: center;
+    box-shadow: 5px 10px #bfbfbf;
+}
+.description{
+    padding-top: 1rem;
+}
+.location{
+    font-weight: bold;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px dashed #bfbfbf;
+}
+.temp{
+    padding-top: 1rem;
+}
+#changeCityForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 1px solid #e1e1e1;
+    width: 25vh;
+    border-radius: 3px;
+    background: #e1e1e1;
+    padding: 1.75vh;
+    text-align: center;
+    box-shadow: 5px 10px #bfbfbf;
+}
+
+
+/* CSS */
+.button-29 {
+    margin-top: 1vh;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.homeAnchor{
+    text-decoration: none;
+    color:blue;
+}
+.homeAnchor:visited{
+    color: blue;
+}
+.centrify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
